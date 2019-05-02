@@ -1,0 +1,25 @@
+{
+  "name": "magic-mirror",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "app": "cd app && npm start",
+    "server": "echo \"NO SERVER START SCRIPT SPECIFIED, PLEASE ADD\"",
+    "dev": "concurrently \"npm run app\" \"npm run server\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asobi-yo/magic-mirror.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asobi-yo/magic-mirror/issues"
+  },
+  "homepage": "https://github.com/asobi-yo/magic-mirror#readme",
+  "dependencies": {
+    "concurrently": "^4.1.0"
+  }
+}
